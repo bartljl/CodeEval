@@ -20,7 +20,7 @@ public class str_substitution {
 			{    
 				    if(canSub(pos,pos + s1.length() - 1))
 				    {
-				    	  String mid = tar.substring(pos, pos + s1.length()).replace(s1, s2);
+				    	  	String mid = tar.substring(pos, pos + s1.length()).replace(s1, s2);
 				    	    
 				    		tar = tar.substring(0, pos) + mid + tar.substring( pos + s1.length());
 				    		
@@ -45,9 +45,9 @@ public class str_substitution {
 				    				}
 				    				
 				    				for(int j = pos; j < pos + s2.length(); j++)
-									{
+								{
 										set.add(j);
-									}
+								}
 				    				
 				    			}
 				    			else
@@ -59,9 +59,9 @@ public class str_substitution {
 				    				}
 				    				
 				    				for(int j = pos; j < pos + s2.length(); j++)
-									{
+								{
 										set.add(j);
-									}
+								}
 				    				
 				    			}
 				    			
